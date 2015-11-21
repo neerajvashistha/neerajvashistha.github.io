@@ -40,7 +40,7 @@ The grub folder will contain dozens of *.mod files, as well as grub.cfg
 
 If you're in the GRUB rescue shell the commands are different, and you have to load the normal.mod andlinux.mod modules:
 
-{% highlight shell %}
+{% highlight bash %}
 grub rescue> set prefix=(hd0,1)/boot/grub
 grub rescue> set root=(hd0,1)
 grub rescue> insmod normal
@@ -57,7 +57,7 @@ Tab-completion should start working after you load both modules.
 
 When you have successfully booted your system, run these commands to fix GRUB permanently:
 
-{% highlight shell %}
+{% highlight bash %}
 cipher@blackfury-HP-eNVy:~$ update-grub
 Generating grub configuration file ...
 Found linux image: /boot/vmlinuz-3.13.0-29-generic
