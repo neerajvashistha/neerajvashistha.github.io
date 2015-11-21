@@ -1,4 +1,5 @@
----layout: post
+---
+layout: post
 title: Grub Rescue Finally Conqured
 ---
 
