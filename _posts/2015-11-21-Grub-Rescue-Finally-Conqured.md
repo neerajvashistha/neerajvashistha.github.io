@@ -40,7 +40,7 @@ The grub folder will contain dozens of *.mod files, as well as grub.cfg
 
 If you're in the GRUB rescue shell the commands are different, and you have to load the normal.mod andlinux.mod modules:
 
-```
+{% highlight shell %}
 grub rescue> set prefix=(hd0,1)/boot/grub
 grub rescue> set root=(hd0,1)
 grub rescue> insmod normal
@@ -49,15 +49,15 @@ grub rescue> insmod linux
 grub rescue> linux /boot/vmlinuz-3.13.0-29-generic root=/dev/sda1
 grub rescue> initrd /boot/initrd.img-3.13.0-29-generic
 grub rescue> boot
-```
+{% endhighlight %}
 
 Tab-completion should start working after you load both modules.
 
-Making Permanent Repairs
+## Making Permanent Repairs
 
 When you have successfully booted your system, run these commands to fix GRUB permanently:
 
-```
+{% highlight shell %}
 cipher@blackfury-HP-eNVy:~$ update-grub
 Generating grub configuration file ...
 Found linux image: /boot/vmlinuz-3.13.0-29-generic
@@ -72,6 +72,7 @@ done
 cipher@blackfury-HP-eNVy:~$ grub-install /dev/sda
 Installing for i386-pc platform.
 Installation finished. No error reported.
+{% endhighlight %}
 ```
 
 When you run grub-install remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like /dev/sda1.
