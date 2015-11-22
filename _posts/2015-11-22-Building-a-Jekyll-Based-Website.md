@@ -64,7 +64,7 @@ Use `git` to clone an existing Jekyll website, such as this one!
 
     cd neerajvashistha.github.io
     
-Please note: the `--config` option must be specified to run `michaelchelen.net` locally. See *Extra Options* section below.
+Please note: the `--config` option must be specified to run `neerajvashistha.github.io` locally. See *Extra Options* section below.
 
 #### Create New Site ####
 For a new Jekyll site, use the `new` command to create a directory structure and config files.
