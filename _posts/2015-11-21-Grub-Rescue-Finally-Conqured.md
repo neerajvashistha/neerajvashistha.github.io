@@ -3,6 +3,8 @@ layout: post
 title: Grub Rescue Finally Conqured
 ---
 
+This is for those who have intentionally and unintentionally messed up their dual boot machine. This happens a lot to those who use Windows and Linux on a single machine and when they install or update Windows without knowing that they could loose their Linux box.
+
 ## Locate the Ubuntu Partition.
 
 ```
