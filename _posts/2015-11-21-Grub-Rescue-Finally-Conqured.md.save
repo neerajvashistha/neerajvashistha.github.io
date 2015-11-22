@@ -75,8 +75,7 @@ cipher@blackfury-HP-eNVy:~$ grub-install /dev/sda
 Installing for i386-pc platform.
 Installation finished. No error reported.
 {% endhighlight %}
-
+```
 
 When you run grub-install remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like /dev/sda1.
-
-
+{% gist 8387126 %}35e515abffad2fa2a5c2
