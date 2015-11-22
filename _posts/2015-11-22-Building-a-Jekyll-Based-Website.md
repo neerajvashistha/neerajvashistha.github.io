@@ -24,6 +24,7 @@ Install ruby, the ruby development libraries, and the make command.
 	sudo apt-add-repository ppa:brightbox/ruby-ng-experimental &&
 	sudo apt-get update &&
 	sudo apt-get install -y ruby2.0 ruby2.0-dev ruby2.0-doc
+	sudo apt-get install make gcc nodejs
 
 ### Javascript Workaround ###
 Installation of `nodejs` is required because of an [issue][issue] where Jekyll requires a JavaScript runtime even if it will not be used.
