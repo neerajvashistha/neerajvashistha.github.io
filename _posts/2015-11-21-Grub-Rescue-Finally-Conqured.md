@@ -78,3 +78,4 @@ Installation finished. No error reported.
 ```
 
 When you run grub-install remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like /dev/sda1.
+{% gist 35e515abffad2fa2a5c2 %}
