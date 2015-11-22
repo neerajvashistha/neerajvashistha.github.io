@@ -12,7 +12,7 @@ So let's get started its harldy 23MBytes(dependencies), here I am using debian/u
 
 First make sure you have all the dependencies installed and ready.
 
-{% hightlight bash %}
+{% highlight bash %}
 sudo apt-get install git cmake build-essential libgcrypt11-dev 
 sudo apt-get libyajl-dev libboost-all-dev libcurl4-openssl-dev 
 sudo apt-get libexpat1-dev libcppunit-dev binutils-dev
