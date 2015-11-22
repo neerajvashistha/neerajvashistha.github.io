@@ -66,7 +66,7 @@ Note: Donot Close the Window of the browser, otherwise the sync will stop.
 ### Syncs
 To sync, you must run the program manually (there is no «real-time watching» yet, but there is a tweak afterall its Linux). At the prompt, type:
 
-{% hightlight bash %}
+{% highlight bash %}
 cd /home/you/yourGoogleDrive/
 grive
 {% endhighlight %}
