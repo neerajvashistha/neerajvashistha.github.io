@@ -3,7 +3,7 @@ layout: post
 title: Deadly Linux/Unix Commands
 ---
 
-These commands are highly likely to disrupt the normal functioning of a working Linux/Unix Distros, It is expected from the READER not to try them as they may cause loss to someone else. Please keep in mind these command must be expermented on, for the sake of curosity on virtual machine or an old Linux Box which has no use. 
+These commands are highly likely to disrupt the normal functioning of a working Linux/Unix Distros, It is expected from the READER not to try them as they may cause loss to someone else. Please keep in mind these command must be experimented on, for the sake of curiosity on virtual machine or an old Linux Box which has no use. 
 
 	mkfs.ext3 /dev/sda
 
