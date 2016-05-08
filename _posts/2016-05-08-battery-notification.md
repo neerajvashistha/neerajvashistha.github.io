@@ -12,7 +12,7 @@ The notification system in Ubuntu based distro is quite simple just a command `n
 So here is the script that I wrote, which notifies the user that the charing is above 90% and below 30%, for the script to work correctly you must install `acpi` through
 
 	sudo apt-get install acpi
-  
+
 <script src="https://gist.github.com/neerajvashistha/28351ddd07c9cc9761a0bacb03bc933d.js"></script>
 
 Now for the system to run this contineously one can write a corn tab or just begin a proceess at the startup, in starup application. But if one doesnot have startup application utility create a new file in `~/.config/autostart/` named as `batterynotify.desktop` and add the below lines
