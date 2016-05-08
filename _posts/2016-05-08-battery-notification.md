@@ -12,3 +12,23 @@ So here is the script that I wrote, which notifies the user that the charing is 
   `sudo apt-get install acpi`
   
 <script src="https://gist.github.com/neerajvashistha/28351ddd07c9cc9761a0bacb03bc933d.js"></script>
+
+Now for the system to run this contineously one can write a corn tab or just begin a proceess at the startup, in starup application. But if one doesnot have startup application utility create a new file in `~/.config/autostart/` named as `batterynotify.desktop` and add the below lines
+
+```
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+StartupNotify=false
+GenericName=batterynotify
+Categories=
+Exec=/usr/local/bin/batterynotify.sh
+Icon=
+Name=batterynotify
+Comment=
+X-GNOME-Autostart-enabled=true
+
+```
+here <b>Exec</b> field gives the path for batterynotify.sh file. Note the above file batterynotify.desktop after creation should be an <b>exectable</b>.
