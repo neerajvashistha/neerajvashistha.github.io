@@ -7,6 +7,8 @@ It's been days since my last post on Free Code Camp, but now I am back, I had lo
 
 The notification system in Ubuntu based distro is quite simple just a command `notify-send` [man page] its quite playful like you could write any script in shell, python, c or c# and make it working or no need of that too just you can say hello world too and a notification will pop on the desktop, like `notify-send "hello world"`
 
+[man page]:https://wiki.ubuntu.com/NotificationDevelopmentGuidelines
+
 So here is the script that I wrote, which notifies the user that the charing is above 90% and below 30%, for the script to work correctly you must install `acpi` through
 
   `sudo apt-get install acpi`
@@ -32,4 +34,4 @@ X-GNOME-Autostart-enabled=true
 
 ```
 here <b>Exec</b> field gives the path for batterynotify.sh file. Note the above file batterynotify.desktop after creation should be an <b>executable</b>.
-[man page]:https://wiki.ubuntu.com/NotificationDevelopmentGuidelines
+
