@@ -11,7 +11,7 @@ The notification system in Ubuntu based distro is quite simple just a command `n
 
 So here is the script that I wrote, which notifies the user that the charing is above 90% and below 30%, for the script to work correctly you must install `acpi` through
 
-  sudo apt-get install acpi
+	sudo apt-get install acpi
   
 <script src="https://gist.github.com/neerajvashistha/28351ddd07c9cc9761a0bacb03bc933d.js"></script>
 
