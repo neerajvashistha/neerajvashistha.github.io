@@ -4,9 +4,8 @@ title: Screencast & Webcast from VLC
 ---
 
 Haa!! finally conqured!. There are thousand of videos on youtube where the presenter is either behind the screen explaining himself or inset within the screen. for example 
-![Screencast+Webcast](https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/Screenshot%20from%202016-05-12%2023:21:54.png "Screencast+Webcast")
 
-[[https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/Screenshot%20from%202016-05-12%2023:21:54.png|alt=Screencast+Webcast]]
+![Screencast+Webcast](https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/Screenshot%20from%202016-05-12%2023:21:54.png "Screencast+Webcast")
 
 But the question arisis how does one do it with stretching himself to th length of going on installing tons of applications and understanding how do they work, though there are some like Camstudio, Camtasia, but even they require some installation. A key fact  of understanding is current configration of our laptop (if one uses VLC) is built to record screen from web cam and audio all at the same time. Seems pretty intersting isn't it? so how does one go about doing it? Well the answer is simple, write a simple bash script with opens VLC and records the correct thing at correct audio with a correct frame rate. That's it.
 
