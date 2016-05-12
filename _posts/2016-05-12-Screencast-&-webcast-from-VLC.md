@@ -4,6 +4,7 @@ title: Screencast & Webcast from VLC
 ---
 
 Haa!! finally conqured!. There are thousand of videos on youtube where the presenter is either behind the screen explaining himself or inset within the screen. for example 
+![Screencast+Webcast](https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/Screenshot%20from%202016-05-12%2023:21:54.png "Screencast+Webcast")
 
 [[https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/Screenshot%20from%202016-05-12%2023:21:54.png|alt=Screencast+Webcast]]
 
@@ -13,7 +14,7 @@ But the question arisis how does one do it with stretching himself to th length 
 
 And the script will exectute as shown below.
 
-[[https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/out2.gif|alt=exection_of_bash]]
+![exection_of_bash](https://github.com/neerajvashistha/neerajvashistha.github.io/blob/master/files/out2.gif "In Action")
 
 There would be some cases where it will not record the audio, if that is the case then exec `arecord -l` and replace `input-slave=alsa://hw:x,y` where `x` denotes card number and `y` denotes device number.
 
