@@ -25,3 +25,10 @@ card 1: PCH [HDA Intel PCH], device 0: 92HD91BXX Analog [92HD91BXX Analog]
   Subdevice #0: subdevice #0
 
 ```
+## Update
+
+This is update is about recording screen and the audio from built-in speaker like if you want to record a live show from webseminar or a tv-video show.
+
+<script src="https://gist.github.com/neerajvashistha/8aad9ce90897de4ff1e7230f1774ea64.js"></script>
+
+For the above script to work correctly, check your ".pci-.." value in "pulse://alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" from VLC, View | Playlist | Audio capture  | Monitor Built-in Audio stereo | Information.
