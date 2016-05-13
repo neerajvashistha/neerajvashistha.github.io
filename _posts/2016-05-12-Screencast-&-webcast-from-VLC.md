@@ -25,7 +25,7 @@ card 1: PCH [HDA Intel PCH], device 0: 92HD91BXX Analog [92HD91BXX Analog]
   Subdevice #0: subdevice #0
 
 ```
-## Update
+##Update
 
 This is update is about recording screen and the audio from built-in speaker like if you want to record a live show from webseminar or a tv-video show.
 
