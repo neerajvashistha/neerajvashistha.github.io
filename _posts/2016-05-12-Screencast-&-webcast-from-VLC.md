@@ -31,4 +31,4 @@ This is update is about recording screen and the audio from built-in speaker lik
 
 <script src="https://gist.github.com/neerajvashistha/8aad9ce90897de4ff1e7230f1774ea64.js"></script>
 
-For the above script to work correctly, check your ".pci-.." value in "pulse://alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" from VLC, View | Playlist | Audio capture  | Monitor Built-in Audio stereo | Information.
+For the above script to work correctly, check your ".pci-.." value in "pulse://alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" from VLC, View > Playlist > Audio capture > Monitor Built-in Audio stereo > Information.
