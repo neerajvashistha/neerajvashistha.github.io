@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
+			
+			
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        
+        <!-- <li class="{{ page.projects }}"><a href="/projects" title="Projects">Projects</a></li> -->
+       
+      </ul>
+      <h3 class="text-muted"><a href="/">Neeraj Vashistha</a></h3>
+    </div> <!-- /header -->
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>
