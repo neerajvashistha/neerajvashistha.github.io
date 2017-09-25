@@ -13,4 +13,5 @@ Find all the IPs on my network using nmap utility and once that are found flood 
 
 <script src="https://gist.github.com/neerajvashistha/2ecde01011a42e05d804acce83674971.js"></script>
 
+
 Change `192.168.1.x` where ever its written according to your Network and install nmap first!! haven't tried on Windows though it should work.. But be careful it does leaves traces of your IP bomabarding the network you will easily be caught:-). Its upon you how you use it, use this wisely.
